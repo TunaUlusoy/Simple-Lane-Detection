@@ -1,6 +1,6 @@
 from functions import *
 
-cap = cv2.VideoCapture("video1.mp4")
+cap = cv2.VideoCapture("video.mp4")
 while True:
     ret, frame = cap.read()
     cv2.imwrite("Frame.png", frame)
